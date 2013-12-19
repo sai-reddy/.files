@@ -1,0 +1,6 @@
+[user]
+	name = sai pentaparthi
+	email = sai.pentaparthi@gmail.com
+[alias]
+	ss = status -s -uno
+	lga = log --graph --decorate --oneline
