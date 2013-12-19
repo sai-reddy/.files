@@ -63,6 +63,7 @@ let g:pep8_map='<leader>8'
 nmap <leader>f :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks = 1
 let NERDTreeQuitOnOpen = 1
+set splitright
 
 " no hidden buffer when closed tab
 set nohidden
