@@ -1,4 +1,7 @@
 " .vimrc by sai pentaparthi
+" sai.pentaparthi@gmail.com
+" Note: all the plugins are used with vim 7.3 and vim is compiled with python
+" 2.5+ support
 
 " pathogen to auto load all plugins
 filetype off
@@ -8,9 +11,6 @@ call pathogen#helptags()
 "***********************GENERAL VIM SETTINGS ************************************
 " leader mapping
 let mapleader = "m"
-
-" column marker
-set colorcolumn=82
 
 " windows split
 map <c-j> <c-w>j
@@ -79,3 +79,5 @@ let g:tagbar_autofocus = 1
 let g:tagbar_left = 1
 let g:tagbar_autoclose = 1
 
+" IndentLine
+let g:indentLine_color_term = 239

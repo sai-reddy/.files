@@ -4,3 +4,8 @@
 [alias]
 	ss = status -s -uno
 	lga = log --graph --decorate --oneline
+	d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
